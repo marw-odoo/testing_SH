@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="ss.spaceship" id="egokiller">
+            <field name="name">Ego Killer</field>
+            <field name="description"> too fast for mere mortals </field>
+            <field name="available"> True</field>
+        </record>
+        <record mdoel="ss.spaceship" id="starfighter">
+            <field name="name"> Star Fighter</field>
+            <field name="description"> biggest blasters this galaxies ever seen</field>
+            <field name="available"> True</field>
+        </record>
+        <record mdoel="ss.spaceship" id="pantherpular">
+            <field name="name"> Panther Pulsar </field>
+            <field name="description"> try detecting this on your radar :) </field>
+            <field name="available"> True</field>
+        </record>
+    </data>
+</odoo>

@@ -20,10 +20,11 @@
     'depends': ['base'],
     
     'data': [
-        
+        'security/space_security.xml',
+        'security/ir.model.access.csv'
     ],
     
     'demo': [
-        
+        'demo/spaceship_demo.xml',
     ],
 }

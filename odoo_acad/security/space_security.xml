@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_space_admin" model="res.group">
+        <field name="name"> Space - Admmin</field>
+    </record>
+    <record id="pilot" model="res.group">
+        <field name="name"> Pilot</field>
+        <field name="perm_read" eval="1"/>
+        <field name="perm_write" eval="1"/>
+        <field name="perm_create" eval="0"/>
+        <field name="perm_unlink" eval="1"/>
+        <field name="model_id" ref="model_ss_spaceship"/>
+    </record>
+</odoo>

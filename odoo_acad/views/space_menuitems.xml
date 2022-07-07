@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record module="ir.actions.act_window" id="vessel_list_action">
+            <field mane="name"> Space Faring Vessels </field>
+            <field mane="res_model">ss.spaceships</field>
+            <field mane="view_mode">tree,form</field>
+            <field mane="help" type="html"> 
+                <p class="o_view_nocontent_smiling_face">
+                    Add a Vessel to the Registry
+                </p>
+            </field>
+        </record>
+        <menuitem name="Star Gazers' Station"
+                  id="menu_sgs"
+                  sequence="1"/>
+        <menuitem id="sgs_sub" name="Star Gazers' Station" parent="menu_sgs" sequence="2"/>
+        <menuitem id="sgs_sub_menu" name="Vessels" parent="sgs_sub" sequence="3"
+                  action="vessel_list_action"/>
+   </data>
+</odoo>
