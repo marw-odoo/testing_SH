@@ -15,7 +15,7 @@
                   id="menu_sgs"
                   sequence="1"/>
         <menuitem id="sgs_sub" name="Star Gazers' Station" parent="menu_sgs" sequence="2"/>
-        <menuitem id="sgs_sub_menu" name="Vessels" parent="sgs_sub" sequence="3"
+        <menuitem id="sgs_sub_menu" name="Space Faring Vessels" parent="sgs_sub" sequence="3"
                   action="vessel_list_action"/>
    </data>
 </odoo>
