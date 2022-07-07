@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo Academy',
+    'name': 'Ospace Academy',
     
-    'summary': """Trianing application""",
+    'summary': """Astronaut Trianing application""",
     
     'description': ' has stuff in it to learn to',
     
-    'author': 'Odoo',
+    'author': 'Rwasenge',
     
     'website': 'https://odoo.com',
     
