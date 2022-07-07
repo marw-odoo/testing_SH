@@ -6,3 +6,9 @@ class Spaceship(models.Model):
     
     _name = 'ss.spaceship'
     _description = 'hopefully this model has an FTL drive!'
+    
+    name = feilds.Char(string='Ship Name', required=True)
+    description = field.Text(string='Description')
+    
+    available = fields.Boolean(string='Available?', default=True)
+    
