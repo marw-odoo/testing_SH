@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
+        
         <record model="ir.ui.view" id="space_view_form">
             <field name="name">ss.space.form</field>
             <field name="model">ss.spaceship</field>
@@ -25,6 +26,7 @@
                 </form>
             </field>
         </record>
+        
         <record model="ir.ui.view" id="space_view_list">
             <field name="name">ss.space.list</field>
             <field name="model">ss.spaceship</field>
@@ -36,6 +38,7 @@
                 </tree>
             </field>
         </record>
+        
         <record model="ir.ui.view" id="space_view_search">
             <field name="name">ss.space.search</field>
             <field name="model">ss.spaceship</field>
@@ -46,5 +49,6 @@
                 </search>
             </field>
         </record>
+        
     </data>
 </odoo>
