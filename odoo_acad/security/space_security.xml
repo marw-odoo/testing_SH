@@ -3,9 +3,6 @@
     <record id="group_space_admin" model="res.groups">
         <field name="name"> Space / Admin</field>
     </record>
-    <record id="just_to_test" model="res.groups">
-        <field name="name"> Space / TESTING</field>
-    </record>
     <record id="pilot" model="ir.rule">
         <field name="name"> Space / Pilot</field>
         <field name="perm_read" eval="1"/>
