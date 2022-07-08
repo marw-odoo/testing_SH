@@ -11,7 +11,7 @@
             <field name="description"> biggest blasters this galaxies ever seen</field>
             <field name="available"> True</field>
         </record>
-        <record model="ss.spaceship" id="pantherpular">
+        <record model="ss.spaceship" id="pantherpulsar">
             <field name="name"> Panther Pulsar </field>
             <field name="description"> try detecting this on your radar :) </field>
             <field name="available"> True</field>
