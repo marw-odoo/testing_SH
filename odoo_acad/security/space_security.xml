@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="group_space_admin" model="res.group">
-        <field name="name"> Space - Admmin</field>
+    <record id="group_space_admin" model="res.groups">
+        <field name="name"> Space / Admin</field>
     </record>
-    <record id="pilot" model="res.group">
-        <field name="name"> Pilot</field>
+    <record id="pilot" model="res.groups">
+        <field name="name"> Space / Pilot</field>
         <field name="perm_read" eval="1"/>
         <field name="perm_write" eval="1"/>
         <field name="perm_create" eval="0"/>
