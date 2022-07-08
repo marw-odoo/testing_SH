@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="space_admin" model="res.groups">
+    <record id="group_space_admin" model="res.groups">
         <field name="name"> Space / Admin</field>
     </record>
     <record id="just_to_test" model="res.groups">
