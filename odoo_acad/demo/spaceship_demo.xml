@@ -6,12 +6,12 @@
             <field name="description"> too fast for mere mortals </field>
             <field name="available"> True</field>
         </record>
-        <record mdoel="ss.spaceship" id="starfighter">
+        <record model="ss.spaceship" id="starfighter">
             <field name="name"> Star Fighter</field>
             <field name="description"> biggest blasters this galaxies ever seen</field>
             <field name="available"> True</field>
         </record>
-        <record mdoel="ss.spaceship" id="pantherpular">
+        <record model="ss.spaceship" id="pantherpular">
             <field name="name"> Panther Pulsar </field>
             <field name="description"> try detecting this on your radar :) </field>
             <field name="available"> True</field>

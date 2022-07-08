@@ -2,10 +2,10 @@
 <odoo>
     <data>
         <record model="ir.actions.act_window" id="vessel_list_action">
-            <field mane="name"> Space Faring Vessels </field>
-            <field mane="res_model">ss.spaceship</field>
-            <field mane="view_mode">tree,form</field>
-            <field mane="help" type="html"> 
+            <field name="name"> Space Faring Vessels </field>
+            <field name="res_model">ss.spaceship</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html"> 
                 <p class="o_view_nocontent_smiling_face">
                     Add a Vessel to the Registry
                 </p>
