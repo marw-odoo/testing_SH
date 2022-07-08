@@ -6,12 +6,13 @@
     <record id="just_to_test" model="res.groups">
         <field name="name"> Space / TESTING</field>
     </record>
-    <record id="pilot" model="res.groups">
+    <record id="pilot" model="ir.rule">
         <field name="name"> Space / Pilot</field>
         <field name="perm_read" eval="1"/>
         <field name="perm_write" eval="1"/>
         <field name="perm_create" eval="0"/>
         <field name="perm_unlink" eval="1"/>
+        <field name="domain_force">[('availabe','=','True')]</field>
         <field name="model_id" ref="model_ss_spaceship"/>
     </record>
 </odoo>
